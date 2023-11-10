@@ -1,0 +1,50 @@
+/* MyAccountPage.css */
+.my-account-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+}
+
+.account-details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.profile-section,
+.orders-section {
+  width: 48%;
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  margin-bottom: 20px;
+}
+
+.profile-section h3,
+.orders-section h3 {
+  color: #333;
+}
+
+/* Add more styling as needed */
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  .account-details {
+    flex-direction: column;
+  }
+
+  .profile-section,
+  .orders-section {
+    width: 100%;
+  }
+
+  .additional-section {
+    width: 100%;
+  }
+
+}

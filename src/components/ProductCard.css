@@ -1,0 +1,89 @@
+/* ProductCard.css */
+
+
+/*
+  <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/sunglass/q/w/l/-original-imagncue8jjnrchh.jpeg?q=20" 
+  loading="auto" 
+  alt style="width: 100%; height: 100%; margin: auto; position: absolute; inset: 0px; padding: inherit; object-fit: contain; opacity: 0;">
+
+
+
+
+*/
+.product-card {
+    display: flex;
+    flex-direction: column;
+    
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    width: calc(80% - 2px); /* Adjust the width and margin as needed */
+    object-fit: contain;
+    margin: 10px;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+  }
+  .product-image {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* Adjust the max-height as needed */
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .product-details {
+    padding: 10px;
+  }
+  
+  .product-title {
+    font-size: 16px; /* Adjust the font-size as needed */
+    margin-bottom: 5px;
+  }
+  
+  .product-price {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-description {
+    font-size: 12px; /* Adjust the font-size as needed */
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .product-buttons {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .buy-now-button,
+  .add-to-cart-button {
+    padding: 8px 12px; /* Adjust the padding as needed */
+    font-size: 12px; /* Adjust the font-size as needed */
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buy-now-button:hover,
+  .add-to-cart-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .add-to-cart-button {
+    background-color: #28a745;
+  }
+  
+  .add-to-cart-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Add more styling as needed */
+  
